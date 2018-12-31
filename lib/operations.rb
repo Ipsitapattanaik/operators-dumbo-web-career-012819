@@ -14,7 +14,9 @@ unsafe?(79)
 unsafe?(50)
 
 def not_safe?(speed)
-	
+	age = 1
+ 
+age < 2 ? "baby" : "not a baby"
 end
 	
 
