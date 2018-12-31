@@ -18,7 +18,7 @@ speed > 60 ? true : false
 speed < 40 ? true : false
 speed > 40 && speed < 60 ? true : false
 end
-unsafe?(35)
+not_safe(35)
 unsafe?(79)
 unsafe?(50)
 	
