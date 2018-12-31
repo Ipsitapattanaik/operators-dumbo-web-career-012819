@@ -14,8 +14,11 @@ unsafe?(79)
 unsafe?(50)
 
 def not_safe?(speed)
+  seed = 79
 speed > 60 ? true : false
+speed = 35
 speed < 40 ? true : false
+speed = 50
 speed > 40 && speed < 60 ? true : false
 end
 not_safe?(35)
